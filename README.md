@@ -7,7 +7,7 @@
 Pollination Algorithm)**; the cascaded channel is evaluated by **SimRIS_v18**
 (included in this folder).
 
-> **Current configuration:** interference ✅ · 2 obstacles ✅ · FPA ✅ · **1 RIS**
+> **Current configuration:** interference  · 2 obstacles  · FPA  · **1 RIS**
 > (not two). The whole codebase assumes a single RIS; `N ∈ {64, 256}` is the
 > element count of the same RIS, not two distinct RISs.
 

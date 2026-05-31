@@ -271,7 +271,11 @@ minimum SE from `0.014` to `0.304` bps/Hz (≈ 22×).
 Rafael Pantoja², Ivan Neves¹, Evelin Cardoso¹, Fabrício Barros²,
 Renato Francês¹, Jasmine Araujo¹
 
-¹ ² Federal University of Pará (UFPA), Belém, Pará, Brazil.
+¹ Laboratório de Inteligência Artificial Aplicada a Cidades Inteligentes
+(LABCITY), Universidade Federal do Pará (UFPA), Belém, PA, Brazil.
+
+² Laboratório de Computação e Telecomunicações (LCT), Universidade Federal do
+Pará (UFPA), Belém, PA, Brazil.
 
 ---
 

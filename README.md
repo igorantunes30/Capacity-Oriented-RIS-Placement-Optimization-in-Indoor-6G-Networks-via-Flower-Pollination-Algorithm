@@ -112,11 +112,12 @@ interferer, `γ_u^{BL} = ρ·max(|D̃₁|²,|D̃₂|²) / (ρ·min(|D̃₁|²,|D
 Let `p = (x, y, z)` be the RIS position. The placement problem is
 
 ```
-maximize_p   f(p) = α · mean_u SE_u(p) + (1−α) · min_u SE_u(p)
+maximize_p   f(p) = α · mean_u SE_u(p) + (1−α) · P₅{ SE_u(p) }
 subject to   p ∈ 𝒲  (South or North wall),   z ∈ [2.6, 3.0] m
 ```
 
-with `α = 0.7`, balancing aggregate throughput and worst-case (fairness) SE. The
+where `P₅{·}` is the 5th-percentile (worst-served) spectral efficiency over the
+UEs, with `α = 0.7`, balancing aggregate throughput and cell-edge (fairness) SE. The
 feasible set `𝒲` is the union of the two side walls; candidates are projected onto
 the nearer wall by `snap_lateral` (sets `y∈{0, Ly}`). The lower bound `z ≥ 2.6` m
 enforces an unobstructed Tx→RIS path.
